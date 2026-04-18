@@ -1,0 +1,33 @@
+Variables used in notebooks:
+phi =  scalar field
+k^2 = 8πG = Mpl^{-2}
+V0 = Scale of exponential potential
+alp = exponent of Inverse power law
+M = Mass scale of inverse power law
+N = ln(a) where a is the scale factor
+beta = var('β') # coupling constant
+
+# Cosmological constants
+h = 0. reduced hubble constant
+ohm_m = 0.31 # approximate fraction of matter today
+Ho = # Hubble constant in reduced plank mass units
+rho_c0 = (3*Ho^2/(k^2)) # current critical energy density
+M_val = (rho_c0*(8*pi)^(alp/2))^(1/(alp+4))*.45 # mass scale in IPL
+gam = 1
+
+Ni = 0 
+z = redshift
+rho_m = energy density of matter
+Pot = V(M_val,fi) = Potential of fi
+H2 = (rho_m + Pot)/(3-1/2*dfi^2)
+rho_φ =  Energy density of φ (ρ_φ)
+#ratio_rho = rho_φ/rho_m
+    
+O_φ = Ωφ
+O_m = Ωm
+#ratio_O = O_φ/O_m
+    
+Pφ =  Pressure density of φ
+Y_φ = (Pφ+rho_φ)/rho_φ 
+w =  Equation of State 
+weff = effective equation of state
