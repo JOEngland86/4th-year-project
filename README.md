@@ -15,7 +15,7 @@ It is not intended as a standalone software package.
 ---
 
 ## The Repository contains Jupyter notebooks in the notebooks folder. 
-Inside this folder, there are two more folders. The **Main Code** folder houses the final versions of the code which were used to produce the plots seen in my thesis and the **code throughout project** folder includes notebooks displaying notebook iterations created throughout project as documented and discussed in Lab book.
+Inside this folder, there are two more folders. The **Final Version of code** folder includes the main notebooks in their final form. These notebooks were used to produce the plots seen in my thesis. The **Development code** folder includes all the notebooks I created throughout project as documented and discussed in Lab book. It is broken up into three sub folders: coupled models, uncoupled models and plots. The notebooks in these folders are then split depending on which potential is used. 
 
 ---
 
