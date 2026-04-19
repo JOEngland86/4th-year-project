@@ -34,12 +34,14 @@ No local SageMath or Python installation is required.
 
 ### - Build the Docker image
 
-From the root of the repository:
+From the root of the local github repository cloned from the online repository:
 
-bash
+bash (need space dot for it to work)
 docker build -t sage-jupyter .
 
-This only needs to be done once (or when the Dockerfile changes).
+
+It will take a long time to build the first time but this only needs to be done once (or when the Dockerfile changes). 
+sage-jupyter is the name I chose for the docker image. Could have given it any name but the name must be the same in docker build and docker run.
 
 ---
 
@@ -50,11 +52,10 @@ docker run -p 9000:8888 -v ${PWD}:/app sage-jupyter
 For macOS / Linux
 docker run -p 9000:8888 -v $(pwd):/app sage-jupyter
 
-Where 8888 represents the port inside container and 9000 represents the port on local machine. 
+This line is running jupyter within sage within docker. 8888 represents the port inside container and 9000 represents the port on local computer. 
 
 Then open a browser and go to:
 http://localhost:9000
-
 
 Jupyter will start with the SageMath kernel available.
 
