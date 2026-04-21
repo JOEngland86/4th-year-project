@@ -10,7 +10,7 @@ beta = var('β') # coupling constant
 # Cosmological constants
 h =  reduced hubble constant
 ohm_m =  approximate fraction of matter today
-Ho = Hubble constant in reduced plank mass units
+Ho = Hubble parameter today
 rho_c0 = current critical energy density
 M_val = mass scale in IPL
 gam = 1 
@@ -24,11 +24,11 @@ H2 = (rho_m + Pot)/(3-1/2*dfi^2)
 rho_φ =  Energy density of φ (ρ_φ)
 #ratio_rho = rho_φ/rho_m
     
-O_φ = Ωφ
+O_φ = Ωφ = frac
 O_m = Ωm
 #ratio_O = O_φ/O_m
     
 Pφ =  Pressure density of φ
 Y_φ = (Pφ+rho_φ)/rho_φ 
 w =  Equation of State 
-weff = effective equation of state
+weff = total effective equation of state
